@@ -1,0 +1,77 @@
+#commentBox{
+  /*width: 600px;
+  height:auto;*/
+  z-index:99999;
+  padding: 10px;
+  background-color:rgba(0,0,0,0.6);
+  position:fixed;
+  color:#fff;
+  right:0;
+  top:0;
+  font-size:13px;
+
+  /* for scroll */
+  width: 600px;
+  height: 400px;
+  overflow:scroll;
+}
+
+
+#commentBox li{
+  padding-bottom: 10px;
+  list-style-type: none;
+  text-align: left !important;
+  /*color: lawngreen;*/
+  -webkit-text-shadow: 0 0 7px #000, 0 0 7px #000;
+  text-shadow: 0 0 7px #000, 0 0 7px #000;
+}
+
+/* added */
+#commentBox li a{
+  padding-bottom: 10px;
+  list-style-type: none;
+  text-align: left !important;
+  color: lawngreen;
+  -webkit-text-shadow: 0 0 7px #000, 0 0 7px #000;
+  text-shadow: 0 0 7px #000, 0 0 7px #000;
+}
+
+#commentBox li > img{
+  height:45px !important;
+}
+
+#commentBox li span{
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+}
+
+/* added */
+#commentBox li span.dan2{
+  font-weight: bold;
+  color: #fff;
+  /*display: inline-block;*/
+  display: block;
+  margin-left: 80%;
+
+}
+
+#commentBox #closeBtn{
+  width:30px;
+  height:30px;
+  line-height: 30px;
+  text-align: center;
+  color: #000;
+  background: #F0F;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  font-size:20px;
+}
+
+
+/* added */
+.hidden {
+  display: none;
+}
